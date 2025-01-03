@@ -10,13 +10,26 @@ type ButtonProps = {
 export const Button=({title, handleClick, active, position}:ButtonProps)=>{
     return(
         <>
-            {position === "nav" &&
+            {position === "header-nav" &&
                 <button
                 className={`${styles.button_nav}`}
                 onClick={handleClick}
                 >
-                    {title}
+                    <h5>{title}</h5>
                 </button>
+            }
+            {position === "header-main" &&
+                <>
+                    <div className={`${styles.button_main_container}`}>
+                        <div className={`${styles.button_main_back}`}></div>
+                        <button
+                            className={`${styles.button_main}`}
+                            onClick={handleClick}
+                        >
+                            <h5>{title}</h5>
+                        </button>
+                    </div>
+                </>
             }
         </>
     )
