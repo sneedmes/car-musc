@@ -46,6 +46,11 @@
 .header_main{
     display: flex;
     flex-direction: column;
+}
+
+.main_info_container{
+    display: flex;
+    flex-direction: column;
     padding: 168px 0 0 0;
     align-items: center;
 }
@@ -89,4 +94,29 @@
     width: 437px;
     text-align: center;
     line-height: 120%;
+}
+
+.main_contacts{
+    display: grid;
+    grid-template-columns: repeat(3, calc(100% / 3));
+    min-width: 100%;
+    font-family: "ReformaGroteskDemiC", sans-serif;
+}
+
+.main_contacts_block{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px var(--border-color) solid;
+    align-items: center;
+    padding: 43px 148px;
+    text-align: center;
+}
+
+.main_contacts_block h6{
+    color: var(--color-text-white);
+}
+
+.main_contacts_block h5{
+    color: var(--color-main-red);
 }

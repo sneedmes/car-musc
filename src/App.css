@@ -18,6 +18,16 @@
   url('./fonts/reforma-bold/reformagroteskboldc.svg#reformagroteskboldc') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
+@font-face {
+  font-family: 'ReformaGroteskDemiC';
+  src: url('./fonts/reforma-demi/reformagroteskdemic.eot'); /* IE 9 Compatibility Mode */
+  src: url('./fonts/reforma-demi/reformagroteskdemic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+  url('./fonts/reforma-demi/reformagroteskdemic.woff2') format('woff2'), /* Super Modern Browsers */
+  url('./fonts/reforma-demi/reformagroteskdemic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+  url('./fonts/reforma-demi/reformagroteskdemic.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('./fonts/reforma-demi/reformagroteskdemic.svg#reformagroteskdemic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
 *{
   margin: 0;
   padding: 0;
