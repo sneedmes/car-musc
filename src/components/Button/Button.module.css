@@ -38,3 +38,37 @@
 .button_main:hover{
     cursor: pointer;
 }
+
+.button_services_container{
+    max-width: 80px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+}
+
+.button_services_back{
+    min-height: 61px;
+    min-width: 42px;
+    background-color: var(--color-main-red);
+    transition: min-width 1s ease;
+}
+
+.button_services{
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    position: absolute;
+    background: none;
+    color: var(--color-text-white);
+    border: none;
+    bottom: 19px;
+    left: 20px;
+}
+
+.button_services_back:hover{
+    cursor: pointer;
+    min-width: 79px;
+    transition: all 1s ease;
+}
+
+.button_services:hover{
+    cursor: pointer;
+}
