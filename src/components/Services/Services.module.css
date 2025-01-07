@@ -1,0 +1,28 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_info{
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services_info h1{
+    font-size: 64px;
+    color: var(--color-main-red);
+    margin-bottom: 33px;
+    font-family: "ReformaGroteskBoldC", sans-serif;
+    max-width: 640px;
+}
+
+.services_info h3{
+    margin: 40px 0 92px 0;
+    color: var(--color-text-white);
+    font-family: "ReformaGroteskMediumC", sans-serif;
+    max-width: 450px;
+}

@@ -73,3 +73,12 @@ h6{
   --color-text-white: #ffff;
   --border-color: #898989;
 }
+
+
+.header{
+  min-height: 1000px;
+  background-image: url("../public/main-back.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
