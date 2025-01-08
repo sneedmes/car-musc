@@ -55,13 +55,24 @@ export const Achievements = () => {
                             tellus tristique sit at. Sed viverra nulla nam arcu, non iaculis pretium, volutpat.</h5>
                     </div>
 
-                    <div>
-                        <div>
-                            {achivements.map((info) =>
-                                <div>
-                                    <h2>{info.title}</h2>
-                                    <h5>{info.description}</h5>
-                                </div>)}
+                    <div className={`${styles.achievements_list}`}>
+                        <div className={`${styles.list_container}`}>
+                            <div>
+                                {achivements.map((info) =>
+                                    <div className={`${styles.list_block}`}>
+                                        <h2>{info.title}</h2>
+                                        <h5>{info.description}</h5>
+                                    </div>).slice(0, 4)
+                                }
+                            </div>
+                            <div style={{marginTop: "40px"}}>
+                                {achivements.map((info) =>
+                                    <div className={`${styles.list_block}`}>
+                                        <h2>{info.title}</h2>
+                                        <h5>{info.description}</h5>
+                                    </div>).slice(4, 8)
+                                }
+                            </div>
                         </div>
                         <div>
 

@@ -44,6 +44,16 @@ export const Button=({title, handleClick, active, position}:ButtonProps)=>{
                     </div>
                 </>
             }
+            {position === "slider" &&
+                <>
+                    <button
+                        className={`${styles.button_slider}`}
+                        onClick={handleClick}
+                    >
+                        <h5>{title}</h5>
+                    </button>
+                </>
+            }
         </>
     )
 }
