@@ -25,7 +25,10 @@ export const Slider = () => {
                 {sliderInfo.map((info) =>
                     <div className={`${styles.slider_list}`}>
                         <img src={info.img} alt=""/>
-                        <h5>{info.text}</h5>
+                        <div className={`${styles.slider_list_text}`}>
+                            <div className={`${styles.slider_list_back}`}></div>
+                            <h5>{info.text}</h5>
+                        </div>
                     </div>
                 )}
                 <Button title={">"} handleClick={()=>null} active={false} position={"slider"}/>

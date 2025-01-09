@@ -13,18 +13,20 @@ function App() {
             <header className="header">
                 <Header handleClick={setPage}/>
                 {page === "main" &&
-                    <>
-                        <Main handleClick={setPage}/>
-                        <Achievements/>
-                        <Slider/>
-                    </>
+                    <Main handleClick={setPage}/>
                 }
                 {page === "services" &&
-                    <>
-                        <Services handleClick={setPage}/>
-                    </>
+                    <Services handleClick={setPage}/>
                 }
             </header>
+            <section className="container">
+                {page === "main" &&
+                    <>
+                        <Achievements/>
+                    <   Slider/>
+                    </>
+                }
+            </section>
         </>
     );
 }

@@ -72,3 +72,25 @@
 .button_services:hover{
     cursor: pointer;
 }
+
+.button_slider{
+    transform: rotate(45deg);
+    border: 3px var(--color-main-red) solid;
+    background: none;
+    color: var(--color-text-white);
+    width: 55px;
+    height: 55px;
+}
+
+.button_slider h3{
+    transform: rotate(-45deg);
+    max-width: 30px;
+    max-height: 30px;
+    position: relative;
+    left: 5px;
+    bottom: 5px;
+}
+
+.button_slider:hover{
+    cursor: pointer;
+}

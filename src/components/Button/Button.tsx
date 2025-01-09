@@ -50,7 +50,7 @@ export const Button=({title, handleClick, active, position}:ButtonProps)=>{
                         className={`${styles.button_slider}`}
                         onClick={handleClick}
                     >
-                        <h5>{title}</h5>
+                        <h3>{title}</h3>
                     </button>
                 </>
             }
