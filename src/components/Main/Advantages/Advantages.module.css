@@ -1,0 +1,43 @@
+.advantages{
+    color: var(--color-text-white);
+    display: flex;
+    gap: 134px;
+}
+
+
+.lists{
+    max-width: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.lists h5{
+    font-family: "ReformaGroteskMediumC", sans-serif;
+}
+
+.list_title{
+    display: flex;
+    gap: 50px;
+}
+
+.list_title h4{
+    font-family: "ReformaGroteskDemiC", sans-serif;
+}
+
+.rhomb_container{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.rhomb {
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    transform: rotate(45deg);
+    background-color: var(--color-main-red);
+}
+

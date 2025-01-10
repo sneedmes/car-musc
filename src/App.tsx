@@ -5,6 +5,7 @@ import {Achievements} from "./components/Main/Achievements/Achievements";
 import {Main} from "./components/Main/Main";
 import {Services} from "./components/Services/Services";
 import {Slider} from "./components/Main/Slider/Slider";
+import {Advantages} from "./components/Main/Advantages/Advantages";
 
 function App() {
     const [page, setPage] = useState('main')
@@ -23,7 +24,8 @@ function App() {
                 {page === "main" &&
                     <>
                         <Achievements/>
-                    <   Slider/>
+                        <Slider/>
+                        <Advantages/>
                     </>
                 }
             </section>
