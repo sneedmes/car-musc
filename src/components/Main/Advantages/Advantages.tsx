@@ -59,11 +59,18 @@ export const Advantages=()=>{
                 </div>
             </div>
 
-            <div>
-                <Button title={"<"} handleClick={() => null} active={false} position={"slider"}/>
-                <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est.
-                    Consectetur lectus.</h6>
-                <Button title={"<"} handleClick={() => null} active={false} position={"slider"}/>
+            <div className={`${styles.advantages_slider}`}>
+                <img src="icons/main-img.png" alt=""/>
+                <div className={`${styles.advantages_slider_text}`}>
+                    <div>
+                        <Button title={"<"} handleClick={() => null} active={false} position={"slider"}/>
+                    </div>
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est.
+                        Consectetur lectus.</h6>
+                    <div>
+                        <Button title={">"} handleClick={() => null} active={false} position={"slider"}/>
+                    </div>
+                </div>
             </div>
 
         </section>

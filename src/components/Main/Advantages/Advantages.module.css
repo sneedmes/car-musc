@@ -2,6 +2,8 @@
     color: var(--color-text-white);
     display: flex;
     gap: 134px;
+    justify-content: center;
+    padding: 180px 0;
 }
 
 
@@ -28,7 +30,6 @@
 .rhomb_container{
     display: flex;
     gap: 30px;
-    margin-top: 40px;
     justify-content: center;
 }
 
@@ -41,3 +42,16 @@
     background-color: var(--color-main-red);
 }
 
+.advantages_slider{
+    max-width: 636px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.advantages_slider_text{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
