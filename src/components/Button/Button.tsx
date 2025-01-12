@@ -54,6 +54,16 @@ export const Button=({title, handleClick, active, position}:ButtonProps)=>{
                     </button>
                 </>
             }
+            {position === "servicesMain" &&
+                <>
+                    <button
+                        className={active ? `${styles.button_services_main_active}` : `${styles.button_services_main}`}
+                        onClick={handleClick}
+                    >
+                        <h4>{title}</h4>
+                    </button>
+                </>
+            }
         </>
     )
 }

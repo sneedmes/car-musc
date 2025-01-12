@@ -1,6 +1,8 @@
 .services{
     display: flex;
     justify-content: center;
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    margin-bottom: 180px;
 }
 
 .services_container{
@@ -30,4 +32,30 @@
     max-height: 10px;
     transform: rotate(45deg);
     background-color: var(--color-main-red);
+}
+
+.services_btn{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.services_info{
+    display: flex;
+    gap: 24px;
+}
+
+.services_info_block{
+    border: 1px var(--border-color) solid;
+    padding: 85px 40px 50px 40px;
+    max-width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.services_info_block h6{
+    max-width: 180px;
 }

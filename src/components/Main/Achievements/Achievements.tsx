@@ -42,7 +42,7 @@ export const Achievements = () => {
             <section className={`${styles.achievements}`}>
                 <div className={`${styles.achievements_container}`}>
                     <div className={`${styles.achievements_description}`}>
-                        <h2>наши достижения от кубка россии до чемпионатов мира</h2>
+                        <h2>{"НАШИ ДОСТИЖЕНИЯ ОТ КУБКА РОССИИ ДО ЧЕМПИОНАТОВ МИРА"}</h2>
                         <div className={`${styles.achievements_rhomb_container}`}>
                             <div className={`${styles.rhomb}`}></div>
                             <div className={`${styles.rhomb}`}></div>

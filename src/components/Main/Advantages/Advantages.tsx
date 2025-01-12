@@ -6,17 +6,17 @@ export const Advantages=()=>{
     const advantages = [
         {
             img: "icons/icon-1.png",
-            title: "материалы от лучших компаний",
+            title: "МАТЕРИАЛЫ ОТ ЛУЧШИХ КОМПАНИЙ",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium, rutrum est, molestie proin tristique duis sed. Morbi suspendisse amet nisl vestibulum risus. Quis pretium"
         },
         {
             img: "icons/icon-2.png",
-            title: "Опытные мастера",
+            title: "ОПЫТНЫЕ МАСТЕРА",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci, lectus aenean ultricies. Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus rhoncus"
         },
         {
             img: "icons/icon-3.png",
-            title: "Гарантия на все виды работы",
+            title: "ГАРАНТИЯ НА ВСЕ ВИДЫ РАБОТЫ",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat."
         },
     ]

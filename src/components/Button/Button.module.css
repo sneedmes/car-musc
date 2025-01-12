@@ -94,3 +94,27 @@
 .button_slider:hover{
     cursor: pointer;
 }
+
+.button_services_main_active{
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    background-color: var(--color-main-red);
+    padding: 20px 40px;
+    border: none;
+    color: var(--color-text-white);
+}
+
+.button_services_main_active:hover {
+    cursor: pointer;
+}
+
+.button_services_main{
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    background: none;
+    padding: 20px 40px;
+    border: none;
+    color: var(--color-text-white);
+}
+
+.button_services_main:hover{
+    cursor: pointer;
+}
