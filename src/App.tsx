@@ -8,6 +8,8 @@ import {Slider} from "./components/Main/Slider/Slider";
 import {Advantages} from "./components/Main/Advantages/Advantages";
 import {ServicesMain} from "./components/Main/ServicesMain/ServicesMain";
 import {Benefits} from "./components/Main/Benefits/Benefits";
+import {Gallery} from "./components/Main/Gallery/Gallery";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
     const [page, setPage] = useState('main')
@@ -30,9 +32,13 @@ function App() {
                         <Advantages/>
                         <ServicesMain/>
                         <Benefits/>
+                        <Gallery/>
                     </>
                 }
             </section>
+            <footer>
+                <Footer/>
+            </footer>
         </>
     );
 }

@@ -1,0 +1,41 @@
+.gallery{
+    display: flex;
+    justify-content: center;
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    margin-bottom: 120px;
+    background-color: #141414;
+}
+
+.gallery_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-text-white);
+}
+
+.rhomb_container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rhomb {
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    transform: rotate(45deg);
+    background-color: var(--color-main-red);
+}
+
+.gallery_img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_img img{
+    width: calc(100% / 6);
+}
