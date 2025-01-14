@@ -1,0 +1,48 @@
+.footer{
+    background-color: #141414;
+    padding-top: 120px;
+    color: var(--color-text-white);
+}
+
+.footer_container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.rhomb_container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rhomb {
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    transform: rotate(45deg);
+    background-color: var(--color-main-red);
+}
+
+.footer_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer_form_personal{
+    display: flex;
+    gap: 24px;
+}
+
+.footer_form_message{
+    display: flex;
+    gap: 70px;
+}
