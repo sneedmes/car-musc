@@ -10,7 +10,7 @@ type ButtonProps = {
 export const Button=({title, handleClick, active, position}:ButtonProps)=>{
     return(
         <>
-            {position === "header-nav" &&
+            {position === "nav" &&
                 <button
                 className={`${styles.button_nav}`}
                 onClick={handleClick}
@@ -61,6 +61,29 @@ export const Button=({title, handleClick, active, position}:ButtonProps)=>{
                         onClick={handleClick}
                     >
                         <h4>{title}</h4>
+                    </button>
+                </>
+            }
+            {position === "footer_submit" &&
+                <>
+                    <div className={`${styles.button_footer_container}`}>
+                        <div className={`${styles.button_footer_submit_back}`}></div>
+                        <button
+                            className={`${styles.footer_submit}`}
+                            onClick={handleClick}
+                        >
+                            <h5>{title}</h5>
+                        </button>
+                    </div>
+                </>
+            }
+            {position === "footer_icon" &&
+                <>
+                    <button
+                        className={`${styles.button_footer_icon}`}
+                        onClick={handleClick}
+                    >
+                        <a href="#"><img src={title} alt=""/></a>
                     </button>
                 </>
             }

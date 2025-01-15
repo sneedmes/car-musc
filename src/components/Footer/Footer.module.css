@@ -1,18 +1,33 @@
+input{
+    outline: 1px var(--border-color) solid;
+    background: none;
+    color: var(--border-color);
+    border: none;
+}
+
+input:focus{
+    outline: 1px var(--color-main-red) solid;
+}
+
 .footer{
     background-color: #141414;
     padding-top: 120px;
     color: var(--color-text-white);
+    font-family: "ReformaGroteskDemiC", sans-serif;
 }
 
 .footer_container{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer_main{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    max-width: 630px;
+   align-items: center;
 }
 
 .rhomb_container{
@@ -42,7 +57,72 @@
     gap: 24px;
 }
 
+.footer_form_personal input{
+    padding: 15px 0 10px 25px;
+    width: 306px;
+}
+
 .footer_form_message{
     display: flex;
     gap: 70px;
+    justify-content: start;
+}
+
+.footer_form_message input{
+    width: 100%;
+    padding: 15px 287px 113px 15px;
+}
+
+.footer_form_social{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_form_submit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_form_contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+
+.footer_form_contacts_address{
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    align-items: center;
+}
+
+.footer_form_contacts_info{
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+}
+
+.contact{
+    display: flex;
+    gap: 10px;
+}
+
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 34px 0 27px 0;
+    border-top: 2px var(--border-color) solid;
+}
+
+.footer_nav_rights{
+    color: var(--border-color);
+}
+
+.footer_nav_buttons{
+    display: flex;
+    gap: 40px;
 }

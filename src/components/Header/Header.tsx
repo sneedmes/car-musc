@@ -11,10 +11,10 @@ export const Header=({handleClick}: HeaderProps)=>{
             {/* START OF NAV SECTION */}
             <nav className={`${styles.header_nav}`}>
                 <div className={`${styles.header_nav_buttons}`}>
-                    <Button title={'Главная'} handleClick={()=>handleClick("main")} active={true} position={"header-nav"}/>
-                    <Button title={'Оклейка автомобилей'} handleClick={()=>handleClick("services")} active={false} position={"header-nav"}/>
-                    <Button title={'Детейлинг автомобилей'} handleClick={()=>handleClick("services")} active={false} position={"header-nav"}/>
-                    <Button title={'Галерея работ'} handleClick={()=>handleClick("gallery")} active={false} position={"header-nav"}/>
+                    <Button title={'Главная'} handleClick={()=>handleClick("main")} active={true} position={"nav"}/>
+                    <Button title={'Оклейка автомобилей'} handleClick={()=>handleClick("services")} active={false} position={"nav"}/>
+                    <Button title={'Детейлинг автомобилей'} handleClick={()=>handleClick("services")} active={false} position={"nav"}/>
+                    <Button title={'Галерея работ'} handleClick={()=>handleClick("gallery")} active={false} position={"nav"}/>
                 </div>
                 <div className={`${styles.header_nav_menu}`}>
                     <div className={`${styles.header_menu_line}`}></div>

@@ -37,7 +37,7 @@ function App() {
                 }
             </section>
             <footer>
-                <Footer/>
+                <Footer handleClick={setPage}/>
             </footer>
         </>
     );

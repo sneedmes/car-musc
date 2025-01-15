@@ -8,8 +8,6 @@
 
 .button_nav:hover{
     cursor: pointer;
-    margin-bottom: 5px;
-    transition: margin-bottom 0.3s ease;
 }
 
 .button_main_back{
@@ -117,4 +115,41 @@
 
 .button_services_main:hover{
     cursor: pointer;
+}
+
+.button_footer_submit_back{
+    min-height: 61px;
+    min-width: 71px;
+    max-height: 61px;
+    max-width: 71px;
+    background-color: var(--color-main-red);
+    transition: min-width 1s ease;
+}
+
+.footer_submit{
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    position: relative;
+    background: none;
+    color: var(--color-text-white);
+    border: none;
+    bottom: 41px;
+    left: 25px;
+}
+
+.button_footer_submit_back:hover{
+    cursor: pointer;
+    min-width: 130px;
+    transition: min-width 1s ease;
+}
+
+.footer_submit:hover{
+    cursor: pointer;
+}
+
+.button_footer_icon{
+    width: 40px;
+    height: 40px;
+    border: 1px var(--border-color) solid;
+    background: none;
+    padding: 10px;
 }
