@@ -1,0 +1,56 @@
+.benefits{
+    display: flex;
+    justify-content: center;
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    margin-bottom: 180px;
+}
+
+.benefits_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--color-text-white);
+}
+
+.benefits_container h2{
+    max-width: 636px;
+}
+
+.rhomb_container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rhomb {
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    transform: rotate(45deg);
+    background-color: var(--color-main-red);
+}
+
+.benefits_info{
+    display: flex;
+    gap: 24px;
+}
+
+.benefits_info_block{
+    border: 1px var(--border-color) solid;
+    padding: 85px 40px 50px 40px;
+    max-width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.benefits_info_block h6{
+    max-width: 180px;
+}

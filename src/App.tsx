@@ -10,9 +10,11 @@ import {ServicesMain} from "./components/Main/ServicesMain/ServicesMain";
 import {Benefits} from "./components/Main/Benefits/Benefits";
 import {Gallery} from "./components/Main/Gallery/Gallery";
 import {Footer} from "./components/Footer/Footer";
+import {AboutService} from "./components/Services/AboutService/AboutService";
+import {ServiceBenefits} from "./components/Services/ServiceBenefits/ServiceBenefits";
 
 function App() {
-    const [page, setPage] = useState('main')
+    const [page, setPage] = useState('services')
     return (
         <>
             <header className="header">
@@ -33,6 +35,12 @@ function App() {
                         <ServicesMain/>
                         <Benefits/>
                         <Gallery/>
+                    </>
+                }
+                {page === "services" &&
+                    <>
+                        <AboutService/>
+                        <ServiceBenefits/>
                     </>
                 }
             </section>

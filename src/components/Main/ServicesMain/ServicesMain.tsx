@@ -1,29 +1,30 @@
 import styles from "./ServicesMain.module.css"
 import {Button} from "../../Button/Button";
 
+export const services=[
+    {
+        icon: "icons/icon-4.png",
+        title: "Защитные пленки",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
+    },
+    {
+        icon: "icons/icon-1.png",
+        title: "Цветные пленки",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
+    },
+    {
+        icon: "icons/icon-2.png",
+        title: "Дизайн",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
+    },
+    {
+        icon: "icons/icon-4.png",
+        title: "Оклейка салона",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
+    }
+]
+
 export const ServicesMain=()=>{
-    const services=[
-        {
-            icon: "icons/icon-4.png",
-            title: "Защитные пленки",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
-        },
-        {
-            icon: "icons/icon-1.png",
-            title: "Цветные пленки",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
-        },
-        {
-            icon: "icons/icon-2.png",
-            title: "Дизайн",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
-        },
-        {
-            icon: "icons/icon-4.png",
-            title: "Оклейка салона",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque vulputate sit. Ut feugiat."
-        }
-    ]
 
     return(
         <section className={`${styles.services}`}>

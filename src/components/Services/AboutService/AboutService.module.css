@@ -1,0 +1,72 @@
+.about{
+    background-color: #141414;
+    color: var(--color-text-white);
+    padding: 180px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.about_container{
+    display: flex;
+    gap: 24px;
+}
+
+.about_description{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 526px;
+}
+
+.about_description h4{
+    font-family: "ReformaGroteskDemiC", sans-serif;
+}
+
+.about_description h5{
+    font-family: "ReformaGroteskMediumC", sans-serif;
+    max-width: 460px;
+}
+
+.about_rhomb_container{
+    display: flex;
+    gap: 30px;
+}
+
+.rhomb{
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    transform: rotate(45deg);
+    background-color: var(--color-main-red);
+}
+
+.about_sponsors{
+    display: flex;
+    max-width: 420px;
+    gap: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 440px;
+}
+
+.about_sponsor{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.about_slider{
+    max-width: 636px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about_slider_text{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
