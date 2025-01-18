@@ -12,6 +12,7 @@ import {Gallery} from "./components/Main/Gallery/Gallery";
 import {Footer} from "./components/Footer/Footer";
 import {AboutService} from "./components/Services/AboutService/AboutService";
 import {ServiceBenefits} from "./components/Services/ServiceBenefits/ServiceBenefits";
+import {Prices} from "./components/Services/Prices/Prices";
 
 function App() {
     const [page, setPage] = useState('services')
@@ -41,6 +42,7 @@ function App() {
                     <>
                         <AboutService/>
                         <ServiceBenefits/>
+                        <Prices/>
                     </>
                 }
             </section>

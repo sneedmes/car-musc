@@ -1,0 +1,76 @@
+.prices{
+    display: flex;
+    justify-content: center;
+    font-family: "ReformaGroteskDemiC", sans-serif;
+    padding-bottom: 120px;
+}
+
+.prices_container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: var(--color-text-white);
+}
+
+.prices_container h2{
+    max-width: 636px;
+}
+
+.rhomb_container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.rhomb {
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    transform: rotate(45deg);
+    background-color: var(--color-main-red);
+}
+
+.prices_table{
+    font-size: 24px;
+    margin-bottom: 120px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+thead th {
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    padding: 30px;
+}
+
+tbody td {
+    padding: 30px;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+tbody td span div:first-child {
+    font-weight: bold;
+    color: var(--color-main-red);
+}
+
+tbody td span div:last-child {
+    color: var(--color-main-red);
+    margin-top: 5px;
+}
+
+tbody tr td:not(:first-child) {
+    color: var(--border-color);
+}
+
+

@@ -12,6 +12,7 @@
     justify-content: center;
     text-align: center;
     color: var(--color-text-white);
+    align-items: center;
 }
 
 .rhomb_container{
